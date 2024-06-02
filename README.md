@@ -21,11 +21,11 @@ Follow these instructions to get a copy of the project running on your local mac
     ```sh
     pip install -r requirements.txt
 
-3.**Create an API key on OpenAI:**
+3. **Create an API key on OpenAI:**
 - Go to the OpenAI API.
 - Sign up and create your API key.
 
-4.**Configure your API key:**
+4. **Configure your API key:**
 - Open the `config.json` file.
 - Add your API key to the file:
   
@@ -41,7 +41,7 @@ Follow these instructions to get a copy of the project running on your local mac
   streamlit run src/main.py
 ```
 
-3.Your chatbot will be published at the local host.
+3. Your chatbot will be published at the local host.
 
 ### Usage
 - After running the above command, a local URL will be provided in the terminal.
