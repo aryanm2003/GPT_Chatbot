@@ -28,18 +28,20 @@ Follow these instructions to get a copy of the project running on your local mac
 4.**Configure your API key:**
 - Open the `config.json` file.
 - Add your API key to the file:
+  
   ```sh
   {
   "api_key": "YOUR_OPENAI_API_KEY"
-}
+  }
 
 ### Running the Project
 1. Open a terminal and navigate to the project directory.
 2. Run the Streamlit application:
   ```sh
   streamlit run src/main.py
+```
 
-3. Your chatbot will be published at the local host.
+3.Your chatbot will be published at the local host.
 
 ### Usage
 - After running the above command, a local URL will be provided in the terminal.
